@@ -10,7 +10,7 @@ jobs:
       - checkout
       - run:
           name: Install Dependencies
-          command: pip install -r requirements.txt
+          command: pip install -r C:\Users\Nerma\CalculatorLibrary\requirements.txt
       - run:
           name: Run Unit Tests
           command: python C:\Users\Nerma\CalculatorLibrary\calculator.py
