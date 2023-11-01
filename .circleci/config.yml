@@ -2,7 +2,7 @@ version: 2.1
 executors:
   windows-executor:
     docker:
-      - image: mcr.microsoft.com/windows/servercore:ltsc2019
+      - image: python:3.8
 jobs:
   build:
     executor: windows-executor
